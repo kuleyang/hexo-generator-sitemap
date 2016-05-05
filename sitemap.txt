@@ -1,0 +1,4 @@
+{% for post in posts %}
+{{ post.permalink | uriencode }}
+{% endfor %}
+
