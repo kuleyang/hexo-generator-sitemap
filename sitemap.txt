@@ -1,2 +1,4 @@
 {% for post in posts %}{{ post.permalink | uriencode }}
 {% endfor %}
+{% for tag in tags %}{{ tag.permalink | uriencode }}
+{% endfor %}
